@@ -1,0 +1,28 @@
+{
+  "name": "vue-block-reveal",
+  "version": "1.0.0",
+  "description": "A vue directive to wrap @crnacura's block revealers.",
+  "main": "dist/vue-block-reveal.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel index.js --out-file dist/vue-block-reveal.js --presets=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronik-design/vue-block-reveal.git"
+  },
+  "author": "Ronik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronik-design/vue-block-reveal/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "homepage": "https://github.com/ronik-design/vue-block-reveal#readme",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "scrollmonitor": "^1.2.4"
+  }
+}
